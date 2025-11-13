@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 // src/pages/Home.jsx
 
-import { jobs } from "../data/jobsData";   // ✅ <-- Add this line
+import { jobs } from "../data/JobsData";  // ✅ <-- Add this line
 
 import { Link } from "react-router-dom";
 

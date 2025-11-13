@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { jobs } from "../data/jobsData";
+import { jobs } from "../data/JobsData";
 import React, { useState } from "react";
 
 const JobDetails = () => {
