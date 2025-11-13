@@ -1,6 +1,6 @@
 // src/pages/AllJobs.jsx
 import JobCard from "../components/Jobcard";
-import { jobs } from "../data/jobsData";
+import { jobs } from "../data/JobsData";
 
 const AllJobs = () => {
   return (
