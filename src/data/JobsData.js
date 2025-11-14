@@ -52,30 +52,29 @@ export const jobs = [
   tags: ["Freshers", "Off Campus", "Software Engineer"]
 },
 {
-  id: "Salesforce-OffCampus2025",
-  title: "Salesforce Off Campus Drive 2025 – Software Engineer AMTS",
-  company: "Salesforce",
-  category: "Freshers",
+  id: "GE-vernova-OffCampus2025",
+  title: "GE-vernova-OffCampus2025",
+  company: "GE-vernova",
+   category: "Freshers,Experienced",
   location: "India",
   salary: "Not Disclosed",
-  applyLink: "https://jobsnet.in/salesforce-off-campus-drive-2025-software-engineer-amts/",  // source: jobsnet :contentReference[oaicite:3]{index=3}
-  description: "Salesforce off campus drive for freshers in Software Engineer AMTS role for 2025 batch.",
+  applyLink: "https://careers.gevernova.com/global/en/apply?jobSeqNo=GVXGVWGLOBALR5015998EXTERNALENGLOBAL&utm_source=linkedin&utm_medium=phenom-feeds&step=1&stepname=personalInformation", 
+  description: "",
   views: "720",
   postDate: "November 12, 2025",
-  tags: ["Freshers", "Off Campus", "Software Engineer", "Cloud"]
+    tags: ["Freshers", "Off Campus", "Software Engineer", "Automotive","Cloud"]
 },
 {
-  id: "Ford-OffCampus2025",
-  title: "Ford Off Campus Drive 2025 – Software Engineer",
-  company: "Ford",
-  category: "Freshers",
-  location: "India / Chennai",
-  salary: "Approx ₹5 LPA",
-  applyLink: "https://freshershunt.in/ford-off-campus-drive-2025-software-engineer-apply/",  // source: freshershunt :contentReference[oaicite:4]{index=4}
-  description: "Ford India off campus drive 2025 for freshers to join as Software Engineer in Chennai location.",
+  id: "PWC-Associate-Software Engineering",
+  title: "PWC Off Campus Hiring MNC COMPANY",
+  company: "PWC",
+   category: "Freshers,Experienced",
+  location: "India ",
+  salary: "Approx ₹6 LPA",
+  applyLink: "https://jobs-ta.pwc.com/global/en/job/663935WD/Acceleration-Center-Advisory-Digital-Core-Modernization-DCM-Associate-2026", 
   views: "630",
-  postDate: "November 12, 2025",
-  tags: ["Freshers", "Off Campus", "Software Engineer", "Automotive"]
+  postDate: "November 14, 2025",
+  tags: ["Freshers", "Off Campus", "Software Engineer", "Automotive","Cloud"]
 }
 ];
 

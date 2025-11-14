@@ -8,12 +8,19 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
+
+       
+
     <Router>
+
+         <ScrollToTop />
       {/* Global Header */}
       <Header />
+
 
       {/* Page Routes */}
       <Routes>

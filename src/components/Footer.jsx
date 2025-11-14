@@ -31,27 +31,27 @@ const Footer = () => {
             <h6 className="fw-bold text-uppercase text-warning mb-3">Quick Links</h6>
             <ul className="list-unstyled">
               <li>
-                <Link to="/" className="text-decoration-none text-light">
+                 <Link to="/" className="text-decoration-none text-light nav-link-custom">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/jobs" className="text-decoration-none text-light">
+                 <Link to="/" className="text-decoration-none text-light nav-link-custom">
                   All Jobs
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-decoration-none text-light">
+                  <Link to="/" className="text-decoration-none text-light nav-link-custom">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-decoration-none text-light">
+                 <Link to="/" className="text-decoration-none text-light nav-link-custom">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="text-decoration-none text-light">
+                 <Link to="/" className="text-decoration-none text-light nav-link-custom">
                   Privacy Policy
                 </Link>
               </li>

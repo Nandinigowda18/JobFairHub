@@ -1,1 +1,30 @@
+/* Smooth hover underline effect */
+.nav-link-custom {
+  position: relative;
+  padding: 4px 0;
+  transition: color 0.3s ease;
+}
+
+/* Line under the text */
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: #ffffff;
+  transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+/* Slight text glow on click */
+.nav-link-custom:active {
+  transform: scale(0.96);
+  opacity: 0.8;
+}
 

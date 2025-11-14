@@ -1,11 +1,15 @@
-// src/pages/AllJobs.jsx
+import { useEffect } from "react";
 import JobCard from "../components/Jobcard";
 import { jobs } from "../data/JobsData";
 
 const AllJobs = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container my-5">
-      {/* Page Title */}
       <div className="text-center mb-5">
         <h1 className="fw-bold text-primary">Latest Job Openings</h1>
         <p className="text-muted fs-5">
@@ -13,7 +17,6 @@ const AllJobs = () => {
         </p>
       </div>
 
-      {/* Job List */}
       <div className="row g-4">
         {jobs.length > 0 ? (
           jobs.map((job) => (
@@ -22,7 +25,9 @@ const AllJobs = () => {
             </div>
           ))
         ) : (
-          <p className="text-center text-muted fs-5">No job openings available right now.</p>
+          <p className="text-center text-muted fs-5">
+            No job openings available right now.
+          </p>
         )}
       </div>
     </div>
@@ -30,3 +35,4 @@ const AllJobs = () => {
 };
 
 export default AllJobs;
+
