@@ -1,15 +1,15 @@
 export const jobs = [
   {
-    id: "siemens-trainee-off-campus-hiring",
-    title: "siemens-trainee-off-campus-hiring 2025",
-    company: "siemens",
-    category: "Freshers, Experinced",
+    id: "hcl-trainee-off-campus-hiring",
+    title: "hcl-trainee-off-campus-hiring 2025",
+    company: "hcl",
+    category: "Freshers",
     location: "India",
     salary: "5 LPA",
-    applyLink: "https://jobs.siemens.com/en_US/externaljobs/JobDetail/484674?source=LinkedIn&sourceType=PREMIUM_POST_SITE",
+    applyLink: "https://forms.office.com/pages/responsepage.aspx?id=N-edGDrJWk-LaG9MqZQZEn_4YzJg3wtMqTZGj64AarhURTRYNllGQTlMV1kxU0o0VFc2SU5DOThOTi4u&route=shorturl&fbclid=PAVERFWAOCu8JleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafnxGTFrit66pBw2tYn7Sx5Ti3PFqG2usKrV7jAtoSYKog0XC1wnem0PuRR1g_aem_ZfZlSy0JUKjkT1Yr6kaDxw",
     description: "",
     views: "1,308",
-    postDate: "November 13, 2025",
+    postDate: "November 19, 2025",
    tags: ["Freshers", "Experienced","Off Campus", "Software Engineer", "Internship"],
   },
   {
